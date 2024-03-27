@@ -4,6 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+coloredlogs = ">=10.0"
+configparser = ">=4.0.2"
+click = "~=8.0"
+fileflyer = {editable = true, path = "."}
+gitpython = "*"
+pyyaml = "*"
 
 [dev-packages]
 
